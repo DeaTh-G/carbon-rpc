@@ -13,16 +13,19 @@ Discord RPC mod for Need for Speed Carbon
 <div>
 	<img src="./Pictures/Race.png"/>
 </div>
+
 ### Free Roam
 <div>
 	<img src="./Pictures/Free Roam.png"/>
 </div>
+
 ### Pursuit
 <div>
 	<img src="./Pictures/Pursuit.png"/>
 </div>
+
 ### And more...
 
 ## Credits
-[ĐeäTh](https://github.com/DeaTh-G) : Creator of carbon-rpc.
+[ĐeäTh](https://github.com/DeaTh-G) : Creator of carbon-rpc.<br>
 [TripleZet](https://www.deviantart.com/triplezet) : Creator of the HD NFSC logo that's used in the project.
