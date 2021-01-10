@@ -11,15 +11,15 @@ Discord RPC mod for Need for Speed Carbon
 ## Features
 ### Race
 <div>
-	<img src="https://imgur.com/3PpGlQ7" />
+	<img src="./Pictures/Race.png"/>
 </div>
 ### Free Roam
 <div>
-	<img src="https://imgur.com/LxwW42U" />
+	<img src="./Pictures/Free Roam.png"/>
 </div>
 ### Pursuit
 <div>
-	<img src="https://imgur.com/5XG5pdb" />
+	<img src="./Pictures/Pursuit.png"/>
 </div>
 ### And more...
 
