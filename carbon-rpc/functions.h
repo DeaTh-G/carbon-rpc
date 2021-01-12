@@ -151,7 +151,7 @@ int GetCurrentCanyonPhaseFormatted(char* phaseBuf, int eventHash)
 
 int GetCurrentCanyonScoreFormatted(char* scoreBuf, int countDir)
 {
-    float currentScore;
+    float currentScore = 0;
     DALRacer::GetCanyonHudScore(&currentScore, 0, countDir);
     
     int roundedScore = round(currentScore);
@@ -173,7 +173,7 @@ int GetCurrentCanyonScoreFormatted(char* scoreBuf, int countDir)
 
 int GetCurrentCanyonDistanceBehindFormatted(char* distBuf)
 {
-    float currentDistance;
+    float currentDistance = 0;
     DALRacer::GetCanyonDistanceBehind(&currentDistance, 3);
 
     DALOptions::UnitType currentUnit;
@@ -188,7 +188,7 @@ int GetCurrentCanyonDistanceBehindFormatted(char* distBuf)
 
 void GetCurrentSpeedtrapSpeedFormatted(char* speedBuf)
 {
-    float totalSpeed;
+    float totalSpeed = 0;
     DALRacer::GetTotalSpeedtrapSpeed(&totalSpeed, 0);
 
     DALOptions::UnitType currentUnit;
@@ -201,7 +201,7 @@ void GetCurrentSpeedtrapSpeedFormatted(char* speedBuf)
 
 void GetCurrentDriftTotalFormatted(char* scoreBuf)
 {
-    int totalScore;
+    int totalScore = 0;
     DALRacer::GetDriftTotalPoints(&totalScore, 0);
     
     if (totalScore < 1000)
@@ -218,7 +218,7 @@ void GetCurrentDriftTotalFormatted(char* scoreBuf)
 
 void GetCompletedPercentFormatted(char* percentBuf)
 {
-    float completionPercent;
+    float completionPercent = 0;
     DALRacer::GetPercentCompleted(&completionPercent, 0);
 
     sprintf(percentBuf, "Completion: %.0f%%", round(completionPercent));
@@ -226,10 +226,10 @@ void GetCompletedPercentFormatted(char* percentBuf)
 
 void GetCheckpointsFormatted(char* pointBuf, int eventHash)
 {
-    int numLaps;
+    int numLaps = 0;
     DALEvent::GetEventNumLaps(&numLaps, eventHash);
 
-    int compLaps;
+    int compLaps = 0;
     DALRacer::GetLapsCompleted(&compLaps, 0);
 
     sprintf(pointBuf, "%d : %d", compLaps, ++numLaps);
@@ -255,7 +255,7 @@ void GetRemainingTimeFormatted(char* timeBuf)
 
 void GetBountyFormatted(char* bountyBuf)
 {
-    float bounty;
+    float bounty = 0;
     DALPursuit::GetBounty(&bounty);
     int rdBounty = floor(bounty);
 
@@ -273,7 +273,7 @@ void GetBountyFormatted(char* bountyBuf)
 
 void GetNumCopsDestroyedFormatted(char* copBuf)
 {
-    int copNum;
+    int copNum = 0;
     DALPursuit::GetNumCopsDestroyed(&copNum);
 
     if (copNum < 1000)
@@ -290,7 +290,7 @@ void GetNumCopsDestroyedFormatted(char* copBuf)
 
 void GetCostToStateFormatted(char* costBuf)
 {
-    float cost;
+    float cost = 0;
     DALPursuit::GetCostToState(&cost);
     int rdCost = floor(cost);
 

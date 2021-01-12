@@ -13,18 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Header Files\Carbon">
-      <UniqueIdentifier>{5e8bd96d-e1f3-4da2-865c-ad49591f5b0b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Carbon\DAL">
-      <UniqueIdentifier>{c5b78533-8a08-4837-abfe-c47e27ed5f00}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Carbon\Game">
-      <UniqueIdentifier>{1b3ad1b3-8863-4423-b4fa-097749423056}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Carbon\Fe">
-      <UniqueIdentifier>{546fc012-84e2-48b3-a190-d164717a0a03}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -33,38 +21,38 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="detours.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="cars.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="racetypes.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="races.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Carbon\DAL\DALCareer.h">
-      <Filter>Header Files\Carbon\DAL</Filter>
-    </ClInclude>
-    <ClInclude Include="Carbon\Game.h">
-      <Filter>Header Files\Carbon</Filter>
-    </ClInclude>
-    <ClInclude Include="Carbon\DAL\DALEvent.h">
-      <Filter>Header Files\Carbon\DAL</Filter>
-    </ClInclude>
-    <ClInclude Include="Carbon\DAL\DALWorldMap.h">
-      <Filter>Header Files\Carbon\DAL</Filter>
-    </ClInclude>
-    <ClInclude Include="Carbon\Game\GCareerZone.h">
-      <Filter>Header Files\Carbon\Game</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Carbon\DAL\DALChallenge.h">
-      <Filter>Header Files\Carbon\DAL</Filter>
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Carbon\DAL\DALEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Carbon\DAL\DALOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Carbon\DAL\DALPursuit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Carbon\DAL\DALRacer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Carbon\DAL\DALVehicle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Carbon\DAL\DALWorldMap.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Carbon\Fe\FeGarageMain.h">
-      <Filter>Header Files\Carbon\Fe</Filter>
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Carbon\Game\GCareerZone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Carbon\Game.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="functions.h">
       <Filter>Header Files</Filter>
@@ -72,17 +60,17 @@
     <ClInclude Include="hooks.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Carbon\DAL\DALRacer.h">
-      <Filter>Header Files\Carbon\DAL</Filter>
+    <ClInclude Include="races.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Carbon\DAL\DALOptions.h">
-      <Filter>Header Files\Carbon\DAL</Filter>
+    <ClInclude Include="racetypes.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Carbon\DAL\DALPursuit.h">
-      <Filter>Header Files\Carbon\DAL</Filter>
+    <ClInclude Include="cars.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Carbon\DAL\DALVehicle.h">
-      <Filter>Header Files\Carbon\DAL</Filter>
+    <ClInclude Include="detours.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
